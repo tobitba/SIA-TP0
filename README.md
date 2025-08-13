@@ -25,8 +25,12 @@ pipenv install
 para instalar las dependencias necesarias en el ambiente virtual
 
 ## Ejecución
+Para ejecutar cada uno de los ejercicios del tp ejecutar
+```
+pipenv run python ejercicio_xx.py
+```
+Por ejemplo para correr el ejercicio 1a
 
 ```
-pipenv run python main.py [config_file]
+pipenv run python ejercicio_1a.py
 ```
-
