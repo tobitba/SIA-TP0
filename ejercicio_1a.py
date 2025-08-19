@@ -4,7 +4,7 @@ import numpy as np
 from src.catching import attempt_catch
 from src.pokemon import PokemonFactory, StatusEffect
 
-throws = 500
+throws = 1000
 
 if __name__ == "__main__":
     factory = PokemonFactory("pokemon.json")
@@ -37,11 +37,11 @@ if __name__ == "__main__":
             array = errors,
             visible = True
         ),
-        marker = dict(color = ['red', 'gold', 'green', 'blue'])
+        marker = dict(color = ['RoyalBlue', 'MediumOrchid', 'DarkOrange', 'MediumSeaGreen'])
     ))
 
     fig.update_layout(
-        title = "Average Catch Rate per Ball with Error Bars",
+        title = "Average Catch Rate per Ball",
         xaxis_title = "Pokeball Type",
         yaxis_title = "Average Catch Rate",
         yaxis = dict(range = [0, 0.25]),

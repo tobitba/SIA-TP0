@@ -5,7 +5,7 @@ from collections import defaultdict
 from src.catching import attempt_catch
 from src.pokemon import PokemonFactory, StatusEffect
 
-throws = 500
+throws = 1000
 
 if __name__ == "__main__":
     factory = PokemonFactory("pokemon.json")
@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
     fig, ax = plt.subplots(figsize=(10, 6))
 
-    colors = ["red", "gold", "green", "blue"]
+    colors = ['RoyalBlue', 'MediumOrchid', 'DarkOrange', 'MediumSeaGreen']
 
     for i, ball in enumerate(balls):
         ax.bar(x + i * width, relative_effectiveness[ball], width, label=ball, color=colors[i])

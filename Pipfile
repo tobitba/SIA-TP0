@@ -10,6 +10,7 @@ jupyter = "*"
 notebook = "*"
 pandas = "*"
 matplotlib = "*"
+plotly = "*"
 
 [dev-packages]
 

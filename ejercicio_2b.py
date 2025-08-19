@@ -7,13 +7,13 @@ from src.catching import attempt_catch
 from src.pokemon import PokemonFactory, StatusEffect
 
 throws_per_point = 10
-noise_level = 0.3
+noise_level = 0.15
 hp_point = np.linspace(0, 1, 200)
 
 if __name__ == "__main__":
     factory = PokemonFactory("pokemon.json")
     pokemons = ["jolteon", "snorlax"]
-    ball = "pokeball"
+    ball = "fastball"
     status = StatusEffect.NONE
     level = 100
 
