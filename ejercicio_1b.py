@@ -49,4 +49,4 @@ if __name__ == "__main__":
     ax.grid(axis='y', linestyle='--', alpha=0.7)
 
     plt.ylim(0, max(max(vals) for vals in relative_effectiveness.values()) * 1.2)
-    plt.show()
+    plt.savefig("ejercicio_1b.png", dpi=300)

@@ -40,4 +40,4 @@ if __name__ == "__main__":
     plt.xlabel("% lost HP")
     plt.ylabel("Capture probability")
     plt.grid(True, linestyle='--', alpha=0.7)
-    plt.show()
+    plt.savefig("ejercicio_2b.png", dpi=300)

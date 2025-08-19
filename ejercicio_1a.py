@@ -48,4 +48,4 @@ if __name__ == "__main__":
         bargap = 0.2,
     )
 
-    fig.show()
+    fig.write_image("ejercicio_1a.png")
